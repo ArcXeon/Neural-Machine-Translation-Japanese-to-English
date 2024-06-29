@@ -8,7 +8,7 @@ This project focuses on implementing a Neural Machine Translation model to trans
 The datasets consist of two datasets combines together. The first is the Kyoto Japanese English Bilingual parallel corpus. This dataset mainly deals about traditional Japanese culture, religion, and history.
 The other dataset is the Anki Japnese-English Dataset. It consists more of daily life conversation or normal words that Japanese people use frequently.
 
-## Methodolgy
+## Methodology
 ### Data Preprocessing
 The datasets are first imported and combined together. The Spacy Library is used for Tokenizing the data. The implementation is carried out using Pytorch so TorchText Fields are also used in preprocessing. Torch Text fields make it easy to make Dataloaders of the data for the models to train on.
 
