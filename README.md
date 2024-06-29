@@ -24,4 +24,7 @@ In the Decoder, which handles tasks like language generation or sequence-to-sequ
 Other typical components like Feed Forward Neural Networks and Normalization layers are used. These components enhance the model's ability to learn and generalize from the input data, ensuring effective training and performance in natural language processing tasks.
 
 ### Model Evaluation
+The model was evaluated by translating samples from the dataset, followed by testing on test dataset.
+For the evaluation, BLEU metric was employed for the model as it offers a quick and reliable assessment of translation quality. It measures direct word-to-word similarity, providing an immediate analysis of translation accuracy. BLEU is well-regarded for its strong correlation with human judgment. Additionally, Perplexity is also uses as another metric in this project.
+After testing the model on test dataset, it achieved a bleu score of 0.40.
  
